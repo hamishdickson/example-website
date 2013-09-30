@@ -102,7 +102,27 @@
         width: 180px;
         margin: 0 auto;
       }
+
+      /* Dynamic map */
+      #map_canvas {
+        width: 480px;
+        height: 300px;
+      }
     </style>
+    <!-- Google maps! -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -253,7 +273,8 @@
 	  <p>Sounds interesting, but what do I get for investing my companies hard earned money? If your company invests more that &pound50, it will get it's first year of Snowbear Contacts free! That includes all mobile applications!</p>
 	</div>
 	<div class="span5 asset">
-	  <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
+	  <!--<img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">-->
+	  <div id="map_canvas"></div>
 	</div>
       </div>
 
