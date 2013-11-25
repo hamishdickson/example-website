@@ -105,26 +105,6 @@
         margin: 0 auto;
       }
 
-      /* Dynamic map */
-      #map_canvas {
-        width: 480px;
-        height: 300px;
-      }
-    </style>
-    <!-- Google maps! -->
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script>
-      function initialize() {
-        var map_canvas = document.getElementById('map_canvas');
-        var map_options = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(map_canvas, map_options);
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -185,7 +165,7 @@
       <div class="row-fluid pitch">
  	<div class="span5 offset1 copy">
 	  <p>Hello and welcome to Snowbear.co!</p>
-	  <p class="about">How are we? Well, simply put we are a tiny London based software house specialising in bespoke software.</p>
+	  <p class="about">Who are we? Well, simply put we are a tiny London based software house specialising in bespoke software.</p>
 	  <p>At the moment we are furiously bashing out 1's and 0's to build our new website, if you'd like to keep up to date, please check out our <a href="https://twitter.com/snowbearsw">twitter feed</a> or check out our updates here!</p>
 	</div>
 
