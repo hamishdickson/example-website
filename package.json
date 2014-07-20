@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "snowbear-website",
   "version": "0.0.1",
   "private": true,
@@ -20,31 +19,4 @@
     "gulp": "~3.8.6",
     "gulp-sass": "~0.7.2"
   }
-=======
-  "name": "node-js-sample",
-  "version": "0.0.2",
-  "description": "a sample node.js app for heroku",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "~3.3.4"
-  },
-  "engines": {
-    "node": "0.10.13",
-    "npm": "1.3.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
-  },
-  "keywords": [
-    "node",
-    "heroku"
-  ],
-  "author": "Mark Pundsack",
-  "license": "BSD",
-  "gitHead": "90fd58e343c29e54fc1d4e19036595500b2bdc21"
->>>>>>> 5c95f408fca58fcd15375d65447912bcc8ffda78
 }
