@@ -1,0 +1,19 @@
+<div ng-controller="MainCtrl">
+
+    <div class="navbar navbar-default navbar-static-top"
+         role="navigation" bs-navbar>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                <i class="fa fa-paw"></i>
+                Snowbear.co</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li ng-class="{active: isSet(1)}"><a href="" ng-click="setPage(1)">Home</a></li>
+            <li ng-class="{active: isSet(2)}"><a href="" ng-click="setPage(2)">Blog</a></li>
+        </ul>
+    </div>
+
+    <home-page ng-if="isSet(1)"></home-page>
+
+    <blog-page ng-if="isSet(2)"></blog-page>
+</div>

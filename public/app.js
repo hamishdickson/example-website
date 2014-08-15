@@ -4,7 +4,7 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
 
         $routeProvider
             .when('/', {
-                templateUrl: 'views/home.html',
+                templateUrl: 'views/pages.html',
                 controller: 'MainCtrl'
             })
             .otherwise({

@@ -34,19 +34,6 @@
 </head>
 <body>
 
-<div class="navbar navbar-default navbar-static-top"
-     role="navigation" bs-navbar>
-    <div class="navbar-header">
-        <a class="navbar-brand" href="/">
-            <i class="fa fa-paw"></i>
-            Snowbear.co</a>
-    </div>
-    <ul class="nav navbar-nav">
-        <li data-match-route="/$"><a href="/">Home</a></li>
-        <li data-match-route="/blog"><a href="/blog">Blog</a></li>
-    </ul>
-</div>
-
 <div ng-view></div>
 
 <script src="vendor/angular.js"></script>
@@ -59,6 +46,10 @@
 <script src="vendor/moment.min.js"></script>
 
 <script src="app.js"></script>
+<script src="controllers/main.js"></script>
+
+<script src="controllers/home.js"></script>
+<script src="controllers/blog.js"></script>
 
 <!-- google analytics - do not edit -->
 <script>
