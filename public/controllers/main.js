@@ -16,4 +16,18 @@
         }
 
     }]);
+
+    app.controller('MessageController', function() {
+        this.message = {};
+
+        this.addMessage = function (message) {
+
+            this.message = {};
+        };
+    });
+
+    var messages = [{
+        "body": "",
+        "email": ""
+    }];
 })();

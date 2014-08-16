@@ -9,4 +9,5 @@
             templateUrl: '../views/contact.html'
         };
     });
+
 })();
