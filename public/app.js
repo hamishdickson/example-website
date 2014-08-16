@@ -7,6 +7,10 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
                 templateUrl: 'views/pages.html',
                 controller: 'MainCtrl'
             })
+            .when('/about', {
+                templateUrl: 'views/pages.html',
+                controller: 'MainCtrl'
+            })
             .otherwise({
                 redirectTo: '/'
             });
