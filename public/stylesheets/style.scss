@@ -238,3 +238,11 @@ html, body {
   background-color:#282828;
   background-size:16px 16px;
 }
+
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  border-color: green;
+}

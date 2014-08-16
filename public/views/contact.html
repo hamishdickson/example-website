@@ -25,7 +25,7 @@
         </p>
 
         <p>Just one thing though - please don't try to call my work number, talk your way
-            past reception and then get annoyed when I can't talk to you. Put simply, my office is far too busy to have
+            past reception and then get annoyed when I won't talk to you. Put simply, my office is far too busy to have
             that
             kind of conversation and it's not appropriate. Instead, contact me on here (I wrote this, so you can be sure
             I'll actually check it! Plus I will be very impressed you've spent the time to find this page) or hit me up
@@ -35,13 +35,15 @@
 
     <!--  Contact Form -->
     <form name="contactForm" ng-controller="MessageController as messageCtrl"
-          ng-submit="contactForm.$valid && messageCtrl.addMessage(message)" novalidate>
+          ng-submit="contactForm.$valid && messageCtrl.addMessage(messageCtrl.message)" novalidate>
 
         <!--  Live Preview -->
         <blockquote>
-            <p ng-show="messageCtrl.message.body">{{messageCtrl.message.body}}</p>
+            <p ng-show="messageCtrl.message.body"><strong>Message: </strong>{{messageCtrl.message.body}}</p>
 
-            <p ng-show="messageCtrl.message.email">Email: {{messageCtrl.message.email}}</p>
+            <p ng-show="messageCtrl.message.name"><strong>Name: </strong>{{messageCtrl.message.name}}</p>
+
+            <p ng-show="messageCtrl.message.email"><strong>Email: </strong>{{messageCtrl.message.email}}</p>
         </blockquote>
 
         <!--  Contact Form -->
@@ -50,6 +52,11 @@
             <textarea ng-model="messageCtrl.message.body" class="form-control"
                       placeholder="Talk to me ..."
                       title="Message" required></textarea>
+        </fieldset>
+        <fieldset class="form-group">
+            <textarea ng-model="messageCtrl.message.name" class="form-control"
+                      placeholder="Joe Blogs"
+                      title="Name" required></textarea>
         </fieldset>
         <fieldset class="form-group">
             <input ng-model="messageCtrl.message.email" type="email" class="form-control"
