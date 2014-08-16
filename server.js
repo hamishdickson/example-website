@@ -22,7 +22,7 @@ app.post('/api/message', function (req, res) {
     });
 
     var mailOptions = {
-        from: 'messages@snowbear.com',
+        from: 'messages@snowbear.co',
         to: 'hamish.dickson@gmail.com',
         subject: 'You have a new message from ' + req.body.name + '!',
         text: 'Message: ' + req.body.body + '\n\nName: ' + req.body.name + '\n\nEmail: ' + req.body.email
