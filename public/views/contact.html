@@ -1,72 +1,68 @@
-<div class="container panel">
-    <div class="panel-heading">
-        <h3>Contact me!</h3>
-    </div>
-</div>
-<div class="container panel panel-body">
-    <div class="col-sm-8">
-        <p>So you'd like to get in touch ehy? Maybe you like what you see here and would like to talk to me about some
-            work?</p>
-
-        <p>Maybe you have some fun project that you need help with? Or maybe you're a company looking to hire someone
-            like me?</p>
-
-        <p>Well, get in touch! For obvious reasons I don't post an email address online, but
-            <a href="http://https://www.linkedin.com/pub/hamish-dickson/67/3b0/47b" target="_blank">I'm pretty easy to
-                find
-                on LinkedIn</a>
-            and I <a href="https://twitter.com/_mishy" target="_blank">sometimes go on Twitter</a>
-            or you can hit me up on the form below and I'll get back to you.</p>
-
-    </div>
-    <div class="col-sm-4">
-        <p><strong>A gentle note to recruiters:</strong> I do get quite a lot of recruiters trying to get in touch. I
-            know
-            this annoys a lot of people, but I find it interesting and I will consider every approach that comes my way.
-            So please
-            feel free to give me a shout.
-        </p>
-
-        <p>Just one thing though - please don't try to call my work number, talk your way
-            past reception and then get annoyed when I won't talk to you. Put simply, my office is far too busy to have
-            that
-            kind of conversation and it's not appropriate. Instead, contact me on here (I wrote this, so you can be sure
-            I'll actually check it! Plus I will be very impressed you've spent the time to find this page) or hit me up
-            on
-            LinkedIn.</p>
+<div class="container">
+    <div class="panel">
+        <div class="panel-heading">
+            <h3>Contact me!</h3>
+        </div>
     </div>
 
-    <!--  Contact Form -->
-    <form name="contactForm" ng-controller="MessageController as messageCtrl"
-          ng-submit="contactForm.$valid && messageCtrl.addMessage(messageCtrl.message)" novalidate>
+    <div class="panel panel-body">
+        <div class="col-sm-8">
+            <p>So you'd like to get in touch ehy? Maybe you like what you see here and would like to talk to me about
+                some work?</p>
 
-        <!--  Live Preview -->
-        <blockquote>
-            <p ng-show="messageCtrl.message.body"><strong>Message: </strong>{{messageCtrl.message.body}}</p>
+            <p>Maybe you have some fun project that you need help with? Or maybe you're a company looking to hire
+                someone like me?</p>
 
-            <p ng-show="messageCtrl.message.name"><strong>Name: </strong>{{messageCtrl.message.name}}</p>
+            <p>Well, get in touch! For obvious reasons I don't post an email address online, but <a
+                    href="http://https://www.linkedin.com/pub/hamish-dickson/67/3b0/47b" target="_blank">I'm pretty easy
+                to find on LinkedIn</a> and I <a href="https://twitter.com/_mishy" target="_blank">sometimes go on
+                Twitter</a> or you can hit me up on the form below and I'll get back to you.</p>
 
-            <p ng-show="messageCtrl.message.email"><strong>Email: </strong>{{messageCtrl.message.email}}</p>
-        </blockquote>
+        </div>
+        <div class="col-sm-4">
+            <p><strong>A gentle note to recruiters:</strong> I do get quite a lot of recruiters trying to get in touch.
+                I know this annoys a lot of people, but I find it interesting and I will consider every approach that
+                comes my way. So please feel free to give me a shout.</p>
+
+            <p>Just one thing though - please don't try to call my work number, talk your way past reception and then
+                get annoyed when I won't talk to you. Put simply, my office is far too busy to have that kind of
+                conversation and it's not appropriate. Instead, contact me on here (I wrote this, so you can be sure
+                I'll actually check it! Plus I will be very impressed you've spent the time to find this page) or hit me
+                up on LinkedIn.</p>
+        </div>
 
         <!--  Contact Form -->
-        <h4>Contact me</h4>
-        <fieldset class="form-group">
-            <textarea ng-model="messageCtrl.message.body" class="form-control"
-                      placeholder="Talk to me ..."
-                      title="Message" required></textarea>
-        </fieldset>
-        <fieldset class="form-group">
-            <textarea ng-model="messageCtrl.message.name" class="form-control"
-                      placeholder="Joe Blogs"
-                      title="Name" required></textarea>
-        </fieldset>
-        <fieldset class="form-group">
-            <input ng-model="messageCtrl.message.email" type="email" class="form-control"
-                   placeholder="jimmyDean@example.org" title="Email" required/>
-        </fieldset>
-        <fieldset class="form-group">
-            <input type="submit" class="btn btn-primary pull-right" value="Go!"/>
-        </fieldset>
-    </form>
+        <form name="contactForm" ng-controller="MessageController as messageCtrl"
+              ng-submit="contactForm.$valid && messageCtrl.addMessage(messageCtrl.message)" novalidate>
+
+            <!--  Live Preview -->
+            <blockquote>
+                <p ng-show="messageCtrl.message.body"><strong>Message: </strong>{{messageCtrl.message.body}}</p>
+
+                <p ng-show="messageCtrl.message.name"><strong>Name: </strong>{{messageCtrl.message.name}}</p>
+
+                <p ng-show="messageCtrl.message.email"><strong>Email: </strong>{{messageCtrl.message.email}}</p>
+            </blockquote>
+
+            <!--  Contact Form -->
+            <h4>Contact me</h4>
+            <fieldset class="form-group">
+                <textarea ng-model="messageCtrl.message.body" class="form-control"
+                          placeholder="Talk to me ..."
+                          title="Message" required></textarea>
+            </fieldset>
+            <fieldset class="form-group">
+                <textarea ng-model="messageCtrl.message.name" class="form-control"
+                          placeholder="Joe Blogs"
+                          title="Name" required></textarea>
+            </fieldset>
+            <fieldset class="form-group">
+                <input ng-model="messageCtrl.message.email" type="email" class="form-control"
+                       placeholder="jimmyDean@example.org" title="Email" required/>
+            </fieldset>
+            <fieldset class="form-group">
+                <input type="submit" class="btn btn-primary pull-right" value="Go!"/>
+            </fieldset>
+        </form>
+    </div>
 </div>

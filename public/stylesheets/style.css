@@ -4724,3 +4724,6 @@ html, body {
 
 .ng-valid.ng-dirty {
   border-color: green; }
+
+a {
+  color: #0099ff; }
