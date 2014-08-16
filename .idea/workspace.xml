@@ -86,8 +86,8 @@
       <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.755102" vertical-offset="2795" max-vertical-offset="3525">
-              <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+            <state vertical-scroll-proportion="-13.061225" vertical-offset="2795" max-vertical-offset="3525">
+              <caret line="229" column="1" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -103,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pages.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/pages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.01986755" vertical-offset="0" max-vertical-offset="755">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="270">
               <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3638814" vertical-offset="0" max-vertical-offset="742">
+              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -155,16 +165,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -190,13 +190,13 @@
         <option value="$PROJECT_DIR$/public/views/blog-pages.html" />
         <option value="$PROJECT_DIR$/public/views/labs.html" />
         <option value="$PROJECT_DIR$/public/controllers/labs.js" />
-        <option value="$PROJECT_DIR$/public/views/about.html" />
         <option value="$PROJECT_DIR$/public/views/home.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/public/views/navbar.html" />
         <option value="$PROJECT_DIR$/public/controllers/navbar.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/views/pages.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/public/views/about.html" />
       </list>
     </option>
   </component>
@@ -313,6 +313,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowbear-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snowbear-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -358,16 +376,16 @@
     <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="SearchEverywhereHistoryKey" value="pa&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/pages.html&#10;page&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/pages.html&#10;st&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/stylesheets/style.scss&#10;ho&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;hom&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;in&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/index.html&#10;ap&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/app.js&#10;app&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/app.js&#10;&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;sty&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/stylesheets/style.scss&#10;h&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;home&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html" />
+    <property name="SearchEverywhereHistoryKey" value="ab&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/about.html&#10;pa&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/pages.html&#10;page&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/pages.html&#10;st&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/stylesheets/style.scss&#10;ho&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;hom&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;in&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/index.html&#10;ap&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/app.js&#10;app&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/app.js&#10;&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;sty&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/stylesheets/style.scss&#10;h&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html&#10;home&#9;FILE&#9;file:///Users/hamishdickson/Programming/snowbear-website/public/views/home.html" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/vendor" />
       <recent name="$PROJECT_DIR$/public/controllers" />
       <recent name="$PROJECT_DIR$/public/views" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -690,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/views/blog-pages.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
@@ -726,14 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="135">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.755102" vertical-offset="2795" max-vertical-offset="3525">
-          <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -772,6 +774,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="270">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.061225" vertical-offset="2795" max-vertical-offset="3525">
+          <caret line="229" column="1" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.083333" vertical-offset="535" max-vertical-offset="1320">
@@ -780,10 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/pages.html">
+    <entry file="file://$PROJECT_DIR$/public/views/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.01986755" vertical-offset="0" max-vertical-offset="755">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.3638814" vertical-offset="0" max-vertical-offset="742">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
           <folding />
         </state>
       </provider>
