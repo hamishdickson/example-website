@@ -9,11 +9,20 @@
         </div>
         <ul class="nav navbar-nav">
             <li ng-class="{active: isSet(1)}"><a href="" ng-click="setPage(1)">Home</a></li>
-            <li ng-class="{active: isSet(2)}"><a href="" ng-click="setPage(2)">Blog</a></li>
+            <li ng-class="{active: isSet(2)}"><a href="" ng-click="setPage(2)">About</a></li>
+            <li ng-class="{active: isSet(3)}"><a href="" ng-click="setPage(3)">Contact</a></li>
+            <li ng-class="{active: isSet(4)}"><a href="" ng-click="setPage(4)">Blog</a></li>
+            <li ng-class="{active: isSet(5)}"><a href="" ng-click="setPage(5)">Labs</a></li>
         </ul>
     </div>
 
     <home-page ng-if="isSet(1)"></home-page>
 
-    <blog-page ng-if="isSet(2)"></blog-page>
+    <about-page ng-if="isSet(2)"></about-page>
+
+    <contact-page ng-if="isSet(3)"></contact-page>
+
+    <blog-page ng-if="isSet(4)"></blog-page>
+
+    <labs-page ng-if="isSet(5)"></labs-page>
 </div>
