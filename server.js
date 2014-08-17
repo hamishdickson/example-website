@@ -4,6 +4,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 var app = express();
+var config = require('./config');
 
 
 app.set('port', process.env.PORT || 3000);
@@ -16,8 +17,8 @@ app.post('/api/message', function (req, res) {
     var smtpTransport = nodemailer.createTransport({
         service: 'Mandrill',
         auth: {
-            user: 'hamish.dickson@gmail.com',
-            pass: 'gxVMqahZJIbp6YzQBMgqIw'
+            user: config.EMAIL_USER,
+            pass: config.EMAIL_HASH
         }
     });
 
