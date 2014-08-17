@@ -14,10 +14,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/api/message', function (req, res) {
     var smtpTransport = nodemailer.createTransport({
-        service: 'Mailgun',
+        service: 'Mandrill',
         auth: {
-            user: 'postmaster@sandboxda54eeedc2fd46a8bff340643c3969ec.mailgun.org',
-            pass: '8fa219eeb2096e0516d242a382ccaafa'
+            user: 'hamish.dickson@gmail.com',
+            pass: 'gxVMqahZJIbp6YzQBMgqIw'
         }
     });
 
