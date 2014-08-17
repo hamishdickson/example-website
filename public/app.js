@@ -4,12 +4,24 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
 
         $routeProvider
             .when('/', {
-                templateUrl: 'views/pages.html',
+                templateUrl: 'views/home.html',
                 controller: 'MainCtrl'
             })
             .when('/about', {
-                templateUrl: 'views/pages.html',
-                controller: 'MainCtrl'
+                templateUrl: 'views/about.html',
+                controller: 'AboutController'
+            })
+            .when('/contact', {
+                templateUrl: 'views/contact.html',
+                controller: 'ContactController'
+            })
+            .when('/blog', {
+                templateUrl: 'views/blog-pages.html',
+                controller: 'BlogController'
+            })
+            .when('/lab', {
+                templateUrl: 'views/labs.html',
+                controller: 'LabController'
             })
             .otherwise({
                 redirectTo: '/'

@@ -6,7 +6,9 @@
     app.directive('blogPage', function () {
         return {
             restrict: 'E',
-            templateUrl: '../views/blog-pages.html'
+            templateUrl: '../views/blog-pages.html',
+            controller: function() {},
+            controllerAs: "BlogController"
         };
     });
 })();

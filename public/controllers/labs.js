@@ -6,7 +6,9 @@
     app.directive('labsPage', function () {
         return {
             restrict: 'E',
-            templateUrl: '../views/labs.html'
+            templateUrl: '../views/labs.html',
+            controller: function() {},
+            controllerAs: "LabController"
         };
     });
 })();

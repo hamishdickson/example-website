@@ -6,7 +6,9 @@
     app.directive('aboutPage', function () {
         return {
             restrict: 'E',
-            templateUrl: '../views/about.html'
+            templateUrl: '../views/about.html',
+            controller: function() {},
+            controllerAs: "AboutController"
         };
     });
 })();
