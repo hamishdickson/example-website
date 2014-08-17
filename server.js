@@ -17,8 +17,8 @@ app.post('/api/message', function (req, res) {
     var smtpTransport = nodemailer.createTransport({
         service: 'Mandrill',
         auth: {
-            user: config.EMAIL_USER,
-            pass: config.EMAIL_HASH
+            user: config.USER,
+            pass: config.HASH
         }
     });
 
