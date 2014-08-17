@@ -149,3 +149,6 @@ body {
 @media (max-width: 500px) {
   body {
     padding-top: 130px; } }
+
+.navbar-default .navbar-brand {
+  color: #111; }
