@@ -229,7 +229,7 @@ em {
   font-size: 11px;
 }
 
-html, body {
+/*html, body {
   background:
   radial-gradient(black 15%, transparent 16%) 0 0,
   radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -237,7 +237,7 @@ html, body {
   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color:#282828;
   background-size:16px 16px;
-}
+}*/
 
 .ng-invalid.ng-dirty {
   border-color: red;
@@ -249,4 +249,14 @@ html, body {
 
 a {
   color: #0099ff;
+}
+
+body {
+  padding-top: 70px;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding-top: 130px;
+  }
 }
