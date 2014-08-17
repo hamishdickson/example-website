@@ -17,11 +17,11 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
             })
             .when('/blog', {
                 templateUrl: 'views/blog-pages.html',
-                controller: 'BlogController'
+                controller: 'MainCtrl'
             })
             .when('/lab', {
                 templateUrl: 'views/labs.html',
-                controller: 'LabController'
+                controller: 'MainCtrl'
             })
             .otherwise({
                 redirectTo: '/'
