@@ -7,7 +7,9 @@
         return {
             restrict: 'E',
             templateUrl: '../views/about.html',
-            controller: function() {},
+            controller: function() {
+                // hmmm boring
+            },
             controllerAs: "AboutController"
         };
     });

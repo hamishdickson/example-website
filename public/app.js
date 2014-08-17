@@ -9,7 +9,7 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
             })
             .when('/about', {
                 templateUrl: 'views/about.html',
-                controller: 'AboutController'
+                controller: 'MainCtrl'
             })
             .when('/contact', {
                 templateUrl: 'views/contact.html',

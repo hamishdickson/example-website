@@ -4,7 +4,7 @@
 (function () {
     var app = angular.module('MyApp');
 
-    app.controller('MainCtrl', ['$scope', function ($scope) {
+    app.controller('MainCtrl', function () {
 
-    }]);
+    });
 })();
