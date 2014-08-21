@@ -143,12 +143,5 @@ em {
 a {
   color: #1d7cf4; }
 
-body {
-  padding-top: 70px; }
-
-@media (max-width: 500px) {
-  body {
-    padding-top: 130px; } }
-
 .navbar-default .navbar-brand {
   color: #111; }
