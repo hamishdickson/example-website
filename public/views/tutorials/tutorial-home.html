@@ -12,36 +12,36 @@
                 <p class="pull-right"><span class="update-header">Hamish, 21st Aug 2014</span></p>
 
                 <p>So as part of writing this site, I decided it would be helpful to have a contact form allowing people
-                to get in touch without having to dish out my private emails address for all to see. This felt like it
-                shouldn't be hard, but took a few hours of googling before I managed to get it working.</p>
+                    to get in touch without having to dish out my private emails address for all to see. This felt like it
+                    shouldn't be hard, but took a few hours of googling before I managed to get it working.</p>
 
                 <p>You should also find this helpful if you're going to send emails to more than one person, maybe you're
-                writing an app to contact your email list?</p>
+                    writing an app to contact your email list?</p>
 
 
                 <h4>Getting started</h4>
 
                 <p>So I'm assuming you have a basic node app up and running ... if you don't, then I suggest you have a
-                look at <a href="http://expressjs.com/guide.html" target="_blank">expressjs</a>.</p>
+                    look at <a href="http://expressjs.com/guide.html" target="_blank">expressjs</a>.</p>
 
                 <h5>Pick your SMTP service</h5>
                 <p>Like the title suggests, I'm going to assume you're using
                     <a href="http://www.nodemailer.com/" target="_blank">nodemailer</a>. This isn't a complete solution,
-                you also need a SMTP server, or service - if you have one, feel free to skip this bit. Don't worry, there
-                are lots of free SMTP services out there, so you shouldn't have to pay for your emailer unless you're
-                really going to hammer it and email more than 12,000 emails a month!</p>
+                    you also need a SMTP server, or service - if you have one, feel free to skip this bit. Don't worry, there
+                    are lots of free SMTP services out there, so you shouldn't have to pay for your emailer unless you're
+                    really going to hammer it and email more than 12,000 emails a month!</p>
 
                 <p>Now, you can actually set up your existing Gmail (and hotmail too I think, although I've not tried)
-                account to be an SMTP server, but I found it a painful experience which I fundamentally couldn't get to
-                work.</p>
+                    account to be an SMTP server, but I found it a painful experience which I fundamentally couldn't get to
+                    work.</p>
 
                 <p>Instead I suggest you use <a href="https://mandrillapp.com/" target="_blank">Mandrill</a> or
                     <a href="https://mailgun.com/cp" target="_blank">Mailgun</a>, both seem pretty good and are free
-                when you send less than a couple of thousand emails a month (you don't have to set up payment details
-                either). I personally am using Mandrill for no obvious reason.</p>
+                    when you send less than a couple of thousand emails a month (you don't have to set up payment details
+                    either). I personally am using Mandrill for no obvious reason.</p>
 
                 <p>First go to <a href="https://mandrillapp.com/" target="_blank">Mandrill</a> and sign up. You will
-                then be given a username and api key (password) - note these down ... yup, they've made it that easy!</p>
+                    then be given a username and api key (password) - note these down ... yup, they've made it that easy!</p>
 
                 <h4>Build your app</h4>
                 <p>Time to get going, first install nodemailer with npm:</p>
@@ -70,7 +70,7 @@
 
                 <h4>A note on security</h4>
                 <p>It's never a good idea to have your username and password hard coded like this - I would suggest you
-                move the username and password out to a separate module :)</p>
+                    move the username and password out to a separate module :)</p>
 
             </div>
         </div>

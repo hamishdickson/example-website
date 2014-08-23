@@ -1,5 +1,5 @@
 angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap', 'main-controller',
-        'navbar-directive', 'contact-controller', 'home-directive', 'gist'])
+        'navbar-directive', 'contact-controller', 'home-directive', 'gist', 'labs-page'])
     .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
         $locationProvider.html5Mode(true);
 
@@ -25,7 +25,7 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
                 controller: 'MainCtrl'
             })
             .when('/tutorials', {
-                templateUrl: 'views/tutorials.html',
+                templateUrl: 'views/tutorials/tutorial-home.html',
                 controller: 'MainCtrl'
             })
             .otherwise({

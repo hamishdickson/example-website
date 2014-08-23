@@ -145,3 +145,25 @@ a {
 
 .navbar-default .navbar-brand {
   color: #111; }
+
+#home-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/noisy-texture-dark.png"); }
+
+.welcome > h2 {
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  color: #ffffff; }
+
+.test {
+  top: 100px;
+  left: 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  color: #c3325f; }
