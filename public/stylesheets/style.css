@@ -167,3 +167,13 @@ a {
   width: 200px;
   border-radius: 50px;
   color: #c3325f; }
+
+#home-page {
+  animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s; }
+
+.navbar {
+  animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s; }
