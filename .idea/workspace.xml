@@ -4,6 +4,7 @@
     <list default="true" id="a676243f-66e1-47a3-9cd3-b9c348e1e432" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snowbear-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +90,8 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27016646" vertical-offset="3404" max-vertical-offset="4305">
-              <caret line="241" column="76" selection-start-line="241" selection-start-column="76" selection-end-line="241" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.41192052" vertical-offset="3049" max-vertical-offset="4380">
+              <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -970,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27016646" vertical-offset="3404" max-vertical-offset="4305">
-          <caret line="241" column="76" selection-start-line="241" selection-start-column="76" selection-end-line="241" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.41192052" vertical-offset="3049" max-vertical-offset="4380">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
           <folding />
         </state>
       </provider>
